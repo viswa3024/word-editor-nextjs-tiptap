@@ -1,5 +1,6 @@
 'use client';
 
+import JoditEditorExample from '@/components/joditreact/JoditEditorExample';
 //import DraftEditorPage from '@/components/draftjs/draftEditox';
 // 📁 src/app/page.tsx
 
@@ -17,6 +18,8 @@ export default function Home() {
       {/* <h1 className="text-3xl font-bold mb-6 text-center">Word Editor (Tiptap + Next.js)</h1> */}
       {/* <WordEditor /> */}
       {/* <DraftEditorPage /> */}
+
+      <JoditEditorExample />
     </main>
   );
 }
