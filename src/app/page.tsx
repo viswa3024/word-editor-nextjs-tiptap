@@ -1,5 +1,6 @@
 'use client';
 
+//import DraftEditorPage from '@/components/draftjs/draftEditox';
 // 📁 src/app/page.tsx
 
 import dynamic from 'next/dynamic';
@@ -13,8 +14,9 @@ const WordEditor = dynamic(() => import('@/components/WordEditor'), {
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100 py-10 px-4">
-      <h1 className="text-3xl font-bold mb-6 text-center">Word Editor (Tiptap + Next.js)</h1>
-      <WordEditor />
+      {/* <h1 className="text-3xl font-bold mb-6 text-center">Word Editor (Tiptap + Next.js)</h1> */}
+      {/* <WordEditor /> */}
+      {/* <DraftEditorPage /> */}
     </main>
   );
 }
